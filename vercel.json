@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "src": "/v1/widget.js",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      }
+    }
+  ]
+}
