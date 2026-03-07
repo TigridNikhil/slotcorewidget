@@ -15,7 +15,7 @@
     connectedCallback() {
       this.orgId = this.getAttribute("org-id");
       this.serviceId = this.getAttribute("service-id");
-      this.baseUrl = "https://slotcore.vercel.app";
+      this.baseUrl = "https://slotcore-production.up.railway.app";
       this.render();
       this.fetchAvailability();
     }
